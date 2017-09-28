@@ -10,13 +10,6 @@ import java.util.logging.Logger;
 import java.util.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import jxl.Cell;
-import jxl.Sheet;
-import jxl.Workbook;
-import jxl.write.Label;
-import jxl.write.WritableSheet;
-import jxl.write.WritableWorkbook;
-import jxl.write.WriteException;
 import org.json.JSONException;
 
 public class GetCompanyInfo {
