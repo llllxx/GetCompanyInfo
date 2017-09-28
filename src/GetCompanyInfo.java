@@ -24,7 +24,7 @@ public class GetCompanyInfo {
 
     private BufferedWriter bw;
             
-    public GetCompanyInfo(String keyword) throws IOException, WriteException {
+    public GetCompanyInfo(String keyword) throws IOException {
         String keywordEncoded = URLEncoder.encode(keyword, "utf-8");
         url = urlFormat.replace("{keyword}", keywordEncoded);
         try {
