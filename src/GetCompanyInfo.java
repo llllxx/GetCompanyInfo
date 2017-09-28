@@ -20,7 +20,7 @@ import jxl.write.WriteException;
 import org.json.JSONException;
 
 public class GetCompanyInfo {
-
+//add a comment
     static final int maxPageNum = 20;
     
     static final String urlFormat = "http://api.map.baidu.com/place/v2/search?query={keyword}&page_size=" + maxPageNum + "&page_num={pageNum}&bounds={bounds}&output=json&ak=7XHowjUI1wjI7rt5Sc1RmuF3fstdLAvD";
